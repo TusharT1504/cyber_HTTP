@@ -128,36 +128,6 @@ app.listen(3000, () => {
   "title": "New Task"
 }
 ```
-
 ---
 
-## **Deployment**
-
-To deploy this service, follow these steps:
-
-1. **Install PM2 (optional, for production use)**:
-
-   ```sh
-   npm install -g pm2
-   ```
-
-2. **Start the server using PM2**:
-
-   ```sh
-   pm2 start app.js --name task-manager
-   ```
-
-3. **Monitor logs**:
-
-   ```sh
-   pm2 logs task-manager
-   ```
-
----
-
-## **License**
-
-This project is licensed under the MIT License.
-
-nothing
 
